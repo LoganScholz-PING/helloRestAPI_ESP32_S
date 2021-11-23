@@ -7,24 +7,38 @@ Important note:
 
 ***************************** START WiFiConfig.h Below *****************************
 
+
 #ifndef WIFI_CONFIG
+
 #define WIFI_CONFIG
 
+
 const char* PING_REST_API_HOST = "<RESTAPIPATHHERE>";
+  
 
 const char* SSID = "<PINGWIFISSIDHERE>";
+  
 const char* EAP_ID = "<NETWORKLOGONNAMEHERE>";
+  
 const char* EAP_USERNAME = "<SAMEASEAP_ID(???)>";
+  
 
 const char* PING_JWT_AUTH = "<JWTAUTHTOKENHERE>";
+  
 const char* PING_OCP_AUTH = "<OCPTOKENHERE>";
+  
 const char* PING_ORG = "US";
+  
 const char* PING_CONTENT_TYPE = "application/json";
+  
   
 String url = "<RESTAPIURLHERE>";
   
+  
 const char* EAP_PASSWORD = "<YOURPASSWORDHERE>";
   
+  
 #endif
+  
 
 ********************************* END WiFiConfig.h ********************************
