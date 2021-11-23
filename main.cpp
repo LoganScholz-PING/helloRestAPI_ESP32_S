@@ -21,7 +21,7 @@ WiFiClient wificlient;
     
   -Organization:US
   -Content-Type:application/json
-  -Ocp-Apim-Subscription-Key:c480f6e38c64410199d9e003baf7ef24  
+  -Ocp-Apim-Subscription-Key:
 
 * Need the following params:
 
@@ -245,16 +245,16 @@ void connectToWiFi()
         Serial.println("WiFi.status() == WL_SCAN_COMPLETED");
         break;
       case WL_CONNECTED:
-        Serial.println("WiFi.status() == 1WL_CONNECTED");
+        Serial.println("WiFi.status() == WL_CONNECTED");
         break;
       case WL_CONNECT_FAILED:
-        Serial.println("WiFi.status() == 2WL_CONNECT_FAILED");
+        Serial.println("WiFi.status() == WL_CONNECT_FAILED");
         break;
       case WL_CONNECTION_LOST:
-        Serial.println("WiFi.status() == 3WL_CONNECTION_LOST");
+        Serial.println("WiFi.status() == WL_CONNECTION_LOST");
         break;
       case WL_DISCONNECTED:
-        Serial.println("WiFi.status() == 4WL_DISCONNECTED");
+        Serial.println("WiFi.status() == WL_DISCONNECTED");
         break;
       default:
         Serial.print("Unable to interpret WiFi.status() [");
