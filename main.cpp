@@ -52,7 +52,7 @@ void connectToInternetHTTP()
     if (httpCode > 0)
     {
       String payload = http.getString();
-      Serial.println("    * httpCode: " + httpCode);
+      Serial.println("    * httpCode: " + String(httpCode));
       Serial.println("    *  payload: " + payload);
     }
     else
