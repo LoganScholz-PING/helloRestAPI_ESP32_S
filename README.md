@@ -2,6 +2,12 @@
 Navigating ESP32 through WPA2 Enterprise Network Connection + REST API
 
 
+*************************************************
+Necessary Libraries:
+Arduino JSON - https://arduinojson.org/v6/doc/
+*************************************************
+
+
 Important note:
 ** WiFiConfig.h is a custom library I created to hold security-sensitive credentials and information. The extract below defines the internals of WiFiConfig.h with sensitive info removed:
 
