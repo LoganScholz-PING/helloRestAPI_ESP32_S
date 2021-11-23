@@ -13,29 +13,29 @@ Important note:
 #define WIFI_CONFIG
 
 
-const char* PING_REST_API_HOST = "<RESTAPIPATHHERE>";
+const char* PING_REST_API_HOST = "REST API PATH HERE";
   
 
-const char* SSID = "<PINGWIFISSIDHERE>";
+const char* SSID = "PING WIFI SSID HERE";
   
-const char* EAP_ID = "<NETWORKLOGONNAMEHERE>";
+const char* EAP_ID = "NETWORK LOGON NAME HERE";
   
-const char* EAP_USERNAME = "<SAMEASEAP_ID(???)>";
+const char* EAP_USERNAME = "SAME AS EAP_ID (???)";
   
 
-const char* PING_JWT_AUTH = "<JWTAUTHTOKENHERE>";
+const char* PING_JWT_AUTH = "JWT AUTH TOKEN HERE";
   
-const char* PING_OCP_AUTH = "<OCPTOKENHERE>";
+const char* PING_OCP_AUTH = "OCP TOKEN HERE";
   
 const char* PING_ORG = "US";
   
 const char* PING_CONTENT_TYPE = "application/json";
   
   
-String url = "<RESTAPIURLHERE>";
+String wo_url = "REST API WORKORDER URL HERE";
   
   
-const char* EAP_PASSWORD = "<YOURPASSWORDHERE>";
+const char* EAP_PASSWORD = "YOUR PASSWORD HERE";
   
   
 #endif
